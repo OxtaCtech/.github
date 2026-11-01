@@ -1,0 +1,23 @@
+name: Bug report
+description: Report reproducible incorrect behavior.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed and expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence and environment
+      description: No secrets or personal data.
+    validations:
+      required: true
